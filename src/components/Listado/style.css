@@ -1,0 +1,17 @@
+.listado {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.lista {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+
