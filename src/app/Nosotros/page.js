@@ -1,2 +1,2 @@
-import QuienesSomos from "../../pages/QuienesSomos";
+import QuienesSomos from "../../pages/quienesSomos";
 export default QuienesSomos;

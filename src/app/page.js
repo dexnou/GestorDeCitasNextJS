@@ -3,9 +3,7 @@ import "./globals.css";
 
 function Home() {
   return (
-      <>
-      <h1>Administración de Pacientes</h1>
-        <div className='App'>
+      <><div className='App'>
           <MainView/>
         </div>
       </>

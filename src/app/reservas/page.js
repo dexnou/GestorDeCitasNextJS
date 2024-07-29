@@ -1,2 +1,2 @@
-import Reservas from "../../pages/Reservas";
+import Reservas from "../../pages/reservar";
 export default Reservas;

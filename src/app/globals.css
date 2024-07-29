@@ -1,9 +1,18 @@
 
 
 body {
-  background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
-  min-height: 100%;
-  padding-bottom: 44rem;
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  --size: 80px; /* control the size */
+  --color: #fdfbed;
+
+  --l: var(--color) 20%, #0000 0;
+  --bg: 35%, #435a6b 0 45%, var(--color) 0;
+  background: linear-gradient(45deg, var(--l) 45%, var(--color) 0 70%, #0000 0),
+    linear-gradient(-45deg, var(--l) var(--bg) 70%, #0000 0),
+    linear-gradient(45deg, var(--color) var(--bg));
+  background-size: var(--size) var(--size);
 }
 
 .App, h2 {
