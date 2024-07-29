@@ -1,6 +1,6 @@
-import Cita from '../../components/Cita'
+"use client";
 import './style.css';
-import React, {useRef, } from 'react';
+import React, {useRef} from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Input from '../Input';
 

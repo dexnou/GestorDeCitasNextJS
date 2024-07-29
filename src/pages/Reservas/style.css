@@ -1,0 +1,11 @@
+.subDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .App {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
